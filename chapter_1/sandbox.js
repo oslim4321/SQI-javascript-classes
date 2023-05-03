@@ -44,10 +44,49 @@ console.log(old);
 
 /* DATA TYPE */
 // we have 7 data type in javascript and they have there own unique and things they can do
-// Number
-// String
-// Boolean
-// Null
-// undefined
-// Object
-// Symbol
+// Number : 1,2,3,4,5,6
+// String : 'hello world', 'welcome to selim class' "oslim@gmail.com"
+// Boolean : false, true
+// Null : Explicitly set a variable with no value / just like undefine
+// undefined : for variable that have not yet been defined
+/* Object : Complex data structure - Array, Dates, Literal, etc, they can perform different function, infact alot of javascript is base around using
+ object*/
+// Symbol : Used with object, they are a new Addition to javascript language which they are closely link to object
+
+/* A VARIABLE CAN HOLD ANY DATA TYPE 
+    we can also override a var with a different type of data too
+    eg if we store a var with a String at the start we can override it to a Number
+*/
+
+// LESSON 9
+// STRING
+console.log("hello world");
+
+let email = "oslim@gmail.com";
+console.log(email);
+// STRING CONCATENATION
+// concatenation is just a way of joining 2 string together
+let firstName = "selim";
+let lastName = "sooto";
+let fullName = firstName + lastName;
+
+console.log(fullName);
+// let fullNames = firstName + " " + lastName;
+
+// console.log(fullNames);
+
+// GETTING CHARACTER
+
+console.log(fullName[5]);
+
+// STRING LENGTH
+
+console.log(fullName.length);
+
+// STRING METHODS
+
+// string have several different function associated with them, this functions are called methods
+
+// the differenet between method and function is
+// A fuunction is Snipppet of codes which perform some kinda specific Tasks
+// A Method is just a function that is associted with a particular object or Data Type
