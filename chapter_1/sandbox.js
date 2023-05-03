@@ -39,4 +39,15 @@ console.log(old);
     3) there is also some reserve keyword in javascript we cant use eg (let and const)
     4) also please try to make your name meaningfull so that any other dev could be able to understand your code and kit coculd be self documented
     5) also please make comment to document your code for oher dev to know what you are trying to do
+    6) not all browsers understand let and const, there are some old browsers that dont understand let and const eg (internet explorer), so use goggle chrome
 */
+
+/* DATA TYPE */
+// we have 7 data type in javascript and they have there own unique and things they can do
+// Number
+// String
+// Boolean
+// Null
+// undefined
+// Object
+// Symbol
