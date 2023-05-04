@@ -111,8 +111,30 @@ console.log(fullName.length);
 // String split()
 
 let userEmail = "adewaleselim6@gmail.com";
-/*to get the last index of  */
+
+/* INDEX-OF */
+/*To get the last index of  */
 // let results = userEmail.lastIndexOf("e");
-/*  */
-let results = userEmail.slice();
-console.log(results, "last inde");
+
+/* SLICE */
+/* to slice/delete a string 
+first parameter is where we go from 
+second parameter is where we go to 
+the second parameter will go back to the starting point to count 
+*/
+// let results = userEmail.slice(2, 5);
+
+/* SUBSTR */
+/* this delete the array from the starting position
+the first parameter start from the staring point just like slice
+but the second parameter carries on from where the starting point ends
+*/
+// let results = userEmail.substr(4, 10);
+
+/* REPLACE */
+// this will only replace the first charater it meet
+// let results = userEmail.replace("e", "o");
+
+// console.log(results, "replace");
+
+/* NUMBER DATA TYPE */
