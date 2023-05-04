@@ -90,3 +90,29 @@ console.log(fullName.length);
 // the differenet between method and function is
 // A fuunction is Snipppet of codes which perform some kinda specific Tasks
 // A Method is just a function that is associted with a particular object or Data Type
+// they actually means the same thing if i said a function or method they are both performng a task
+// example
+//1) String length
+//2) String slice()
+//3) String substring()
+//4) String substr()
+//5) String replace()
+//6) String replaceAll()
+//7) String toUpperCase()
+//8) String toLowerCase()
+//9) String concat()
+//10) String trim()
+//11) String trimStart()
+//12) String trimEnd()
+// String padStart()
+// String padEnd()
+// String charAt()
+// String charCodeAt()
+// String split()
+
+let userEmail = "adewaleselim6@gmail.com";
+/*to get the last index of  */
+// let results = userEmail.lastIndexOf("e");
+/*  */
+let results = userEmail.slice();
+console.log(results, "last inde");
