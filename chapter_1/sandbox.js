@@ -138,3 +138,10 @@ but the second parameter carries on from where the starting point ends
 // console.log(results, "replace");
 
 /* NUMBER DATA TYPE */
+// we also have load of uses of number in javascript
+
+const radius = 10; //this is a
+const pi = 3.14; //this is a decimal number
+
+// console.log(radius, pi)
+console.log(10 / 4);
