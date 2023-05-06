@@ -144,4 +144,36 @@ const radius = 10; //this is a
 const pi = 3.14; //this is a decimal number
 
 // console.log(radius, pi)
-console.log(10 / 4);
+// MATH OPERATOR = +, -, *, /, **, %
+// console.log(10 / 5);
+
+// let results = radius % 2;
+// console.log(results);
+
+let likes = 10;
+// likes++;
+// console.log(likes);
+
+/* instead of using this */
+// likes = likes + 10;
+/* yo can do this */
+/* SHORT HAND NOTATION */
+// likes += 10;
+// likes *= 3;
+// likes -= 5;
+// likes /= 2;
+// console.log(likes);
+
+// So lets talk about NAN - Not a Number
+
+// console.log(2 * "hello");
+
+// you can also concatenate a number with a string
+
+// let result = "the blog has " + likes + " likes";
+/* This approch is fine if we have little amount of text to concatenate, but it start getting too MESSy when we have large amount 
+of text to concatenate, so we can use Template String instead
+*/
+// console.log(result);
+
+/* TEMPLATE STRING */
