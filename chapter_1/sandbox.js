@@ -255,11 +255,29 @@ let age = 25;
 
 // ?LOOSE AND STRICT COMPARISION
 /* loose comparison */
-// using ==  (double quaal to) is a loose comparision  which means by different TYPE can still be dofferent
+// using ==  (double quaal to) is a loose comparision  which means different TYPE can still be QQUAL
 
-console.log(age == 25);
-console.log(age === "25");
+// console.log(age == 25);
+// console.log(age == "25");
+// console.log(age != 25);
+// console.log(age != "25");
 
 /* strict comparison  */
 
-// using ==  (double quaal to) is a loose comparision
+// using ===  (3 quaal sign) is a STRICT comparision
+console.log("strict compatrisiom");
+// console.log(age === 25);
+// console.log(age === "25");
+// console.log(age !== 25);
+// console.log(age !== "25");
+
+// let score = "100";
+// score = Number(score);
+// console.log(score / 2);
+// console.log(typeof score);
+/* conversion */
+// let result = String(10);
+// let result = Number(10)
+let result = Boolean(0);
+
+console.log(result, typeof result);
