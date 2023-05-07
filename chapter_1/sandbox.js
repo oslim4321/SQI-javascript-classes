@@ -150,7 +150,7 @@ const pi = 3.14; //this is a decimal number
 // let results = radius % 2;
 // console.log(results);
 
-let likes = 10;
+// let likes = 10;
 // likes++;
 // console.log(likes);
 
@@ -177,3 +177,89 @@ of text to concatenate, so we can use Template String instead
 // console.log(result);
 
 /* TEMPLATE STRING */
+// Templte string let us to inject variable into the string without having to x it out or using plus sign to concatinate them
+
+const title = "Best read of 2019";
+const author = "OSlim";
+const likes = 20;
+
+// so let make an examole of concatenate way and template string way
+
+// Concetenate Way
+// let result =
+//   "the blog called " + title + " by " + author + " has " + likes + "likes";
+
+// Template string way
+// let result = `the blog called ${title} by ${author} has ${likes} likes`;
+// console.log(result);
+
+// Creating an HTML String
+
+// let html = `
+//     <h2>${title}</h2>
+//     <p>By ${author}</p>
+//     <span>This blog has ${likes} likes</span>
+// `;
+// console.log(html);
+
+/* ARRAY */
+// let oslimStud = ["john", "sam", "collins"];
+// oslimStud[2] = "samuel";
+// we can store an data type inside an array (null unfdefined string number) exmple of number below:
+// let ages = [20, 15, 60, 50];
+
+// let res = oslimStud.join("-")
+// let res = oslimStud.indexOf("sam");
+// let res = ages.concat(["oslim", "woow"]);
+// let res = ages.push("90");
+// res = ages.pop();
+
+// console.log(ages);
+
+// console.log(ages.length);
+
+// console.log(oslimStud);
+
+/* undefine null  */
+// we can intentionally set a variable to null if we wsnt the vaeiable to be empty
+
+// let age;
+// console.log(age, age + 2, `the age is ${age}`);
+
+/* Boolean & Comparision */
+
+// // method can return a boolean
+// let emaill = "adewaleselim6@gmail.com";
+// let names = ["oslim", "woow"];
+
+// // let result = emaill.includes("@");
+// let result = names.includes("soslim");
+// console.log(result);
+
+/* Comparision */
+let age = 25;
+// console.log(age == "25");
+// console.log(age == 30);
+// console.log(age != 30);
+// console.log(age > 30);
+// console.log(age < 30);
+// console.log(age <= 24);
+// console.log(age >= 24);
+
+// let name = "oslim";
+// console.log(name == "shaun");
+// console.log(name == "Oslim");
+// console.log(name > "crystal");
+// console.log(name > "Shaun"); //lower case letter are greater than uppercase letter
+// console.log(name > "Crystal");
+
+// ?LOOSE AND STRICT COMPARISION
+/* loose comparison */
+// using ==  (double quaal to) is a loose comparision  which means by different TYPE can still be dofferent
+
+console.log(age == 25);
+console.log(age === "25");
+
+/* strict comparison  */
+
+// using ==  (double quaal to) is a loose comparision
