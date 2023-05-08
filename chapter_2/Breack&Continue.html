@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let studentWithZero = 0;
+      const score = [50, 0, 0, 25, 0, 30, 100, 20, 10];
+      for (let i = 0; i < score.length; i++) {
+        if (score[i] === 0) {
+          // am using it here to count the number of student who score zero and and am also skipping them
+          studentWithZero++;
+          continue;
+          //   this looop skip the 0 and continue with other number
+          // the continue jump out of the loop and continue with the rest
+        }
+        console.log("your score is ", score[i]);
+        if (score[i] === 100) {
+          console.log("Congrats you get the highest score");
+          break;
+          //   the Break keyword means "break completely from the loop and carry on with the rest of the code down "
+        }
+      }
+      console.log(studentWithZero, "zero");
+    </script>
+  </body>
+</html>

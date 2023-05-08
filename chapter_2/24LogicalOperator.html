@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Logical operator
+      /*
+       To satisfy a combination of diffrent condition all at once in a single set of bracket
+       to satisfy in one check then we have to use logical operators we have two logincal
+       first  OR  || operaor
+       second AND && operator
+      */
+      const password = "passw@ddd";
+
+      if (password.length >= 12 && password.includes("@")) {
+        console.log("the password is mighty strong");
+      } else if (
+        password.length >= 8 ||
+        (password.includes("@") && password.length < 5)
+      ) {
+        console.log("the password is pretty strong");
+      } else {
+        console.log("the password is not strong enough");
+      }
+      // logical not
+      // and if statement (if()) only run a code when it is true
+      // to run a code inside the (if()) when something is false, you have to use logical NOT eg
+      //
+      let user = false;
+      // i only want to run this code when user is false
+      // to do this we use (!) operator
+      if (!user) {
+        console.log("you must be logged in to continue");
+      }
+      // if this ! operator is put infront of a truth value is going to turn it to false and also vice versa
+      console.log(!true);
+      console.log(!false);
+    </script>
+  </body>
+</html>
