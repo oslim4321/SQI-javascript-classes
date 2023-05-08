@@ -19,6 +19,32 @@
       if (oslimStud.length > 4) {
         console.log("that's a lot of student");
       }
+      /* so currently we have been using (if statement), if it is true we get back a response but if it not we only get blank page which is not
+       right 
+       to return a something if false we could use ELSE statement
+       */
+      const password = "passw";
+
+      if (password.length > 5) {
+        console.log("the password is longer than 5");
+      } else {
+        console.log("the password is not up to 10");
+      }
+
+      /* so using if and else the code is going to either run any one either if or else is always going to run one
+      
+      we can also check for multiple thing using else if statement
+      example
+      */
+
+      console.log("if else if else");
+      if (password.length >= 12) {
+        console.log("the password is mighty strong");
+      } else if (password.length > 8) {
+        console.log("the password is pretty strong");
+      } else {
+        console.log("the password is not strong enough");
+      }
     </script>
   </body>
 </html>
