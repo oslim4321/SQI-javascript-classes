@@ -8,8 +8,29 @@
   <body>
     <script>
       // variable & block scope
+      let age = 30;
+      //   this varible we just declare at the top is global var
+      // when we declare a variable using LET or CONST in the root of the document meaning wen it is not inside any code block, it is called CODE BLOCK
+      //   it can be access anywhere
       if (true) {
+        // trying to override the AGE global vaiable
+        // age = 40
+        // Local  scope
+        let age = 50;
+        let name = "oslim";
+
+        // we are allowed to redefine a varible inside a code block even though ot got the same name
+        // inside the code block age is 50 but outside it is 30
+
+        console.log("inside first code block", age, name);
+
+        // this is a nested code block
+        if (true) {
+          console.log("inside second code block ", age, name);
+          //   is always going to log  the recent code block, so it will always get the 50
+        }
       }
+      console.log("outside code block", age, name); // we can't access name here, because the scope of the variable is only available in (if) code block
     </script>
   </body>
 </html>

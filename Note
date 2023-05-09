@@ -16,3 +16,13 @@ making Awesome things in a browser
 -digital clock, Animation, Quizze, chat rooms Weather Apps..
 
 we can build a static website with just HTML/CSS but and just with a few lines of javscript we can bring live into it
+
+<!-- JAVASCRPT DATA TYPE -->
+
+Number = 1,2,3,4,5,6
+Sring = 'hello world', 'adewale321;
+Boolean = true/false
+Null = explicitly set a variable with no value
+Undefined = for a variable that have not yet been defined
+Object = complex data structure (ARRAY, OBJECT LITERAL, FUNCTION, DATE ETC)
+Symbol = used with object
